@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.continer {
+    max-width: 1400px;
+    padding: 0px 32px;
+    margin: auto;
+}
+
+nav {
+    padding: 20px 0px;
+    background-color: rgb(58, 54, 54);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navsag {
+    width: 90px;
+    height: 70px;
+    padding: 15px 15px;
+}
+
+.navsol {
+    width: 300px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.icon {
+    width: 120px;
+    display: flex;
+    color: white;
+    gap: 20px;
+}
+
+.a {
+    width: 100%;
+    height: 800px;
+    background: url("https://th.bing.com/th/id/OIP.eFMI9EJA_s4lDs7TMZBYOgHaEu?pid=ImgDet&rs=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 200px;
+}
+
+.a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    top: 0;
+}
+
+.divaa {
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.divaa,
+span,
+h1 {
+    color: white;
+    font-size: 50px;
+    z-index: 1;
+}
+
+button {
+    font-size: 15px;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    z-index: 1;
+}
+
+.b {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.divb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.divb1 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.divb2 {
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+}
+
+.c {
+    width: 100%;
+    height: 500px;
+    background: url("https://preview.colorlib.com/theme/pato/images/bg-intro-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.c1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 160px;
+    justify-content: center;
+}
+
+.c1,
+h3 {
+    font-size: 60px;
+}
+
+.d {
+    width: 100%;
+}
+
+.d1 {
+    width: 100%;
+    padding-top: 100px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-content: center;
+    justify-content: center;
+}
+
+h4:hover{
+    color: red;
+}
+
+.ucd {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.f {
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.f1 {
+    width: 480px;
+    height: 150px;
+    margin: 50px auto;
+}
+.f1, span{
+    padding-left: 70px;
+}
+.f2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.fa{
+    grid-row: 1/3;
+    background-color: brown;
+}
+
+.fb{
+    grid-row: 1/3;
+    background-color: brown;
+}
+.fc{
+    background-color: brown;
+} 
+.fd{
+  background-color: brown;
+}
+.fe{
+  grid-column: 1/3;
+  background-color: brown;
+}
+.fg{
+    background-color: brown;
+}
+.event{
+    width: 100%;
+    padding: 100px 0px;
+    background: url("https://www.tampabay.com/resizer//NPQdOvYteePUWUnCVdTNyn8q3DQ=/900x506/smart/filters:format(webP)/cloudfront-us-east-1.images.arcpublishing.com/tbt/55OHUAFMTVGRDGKS26EVQUXIRQ.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.event1{
+    width: 400px;
+    height: 200px;
+    margin: auto;
+}
+
+.eventa{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+}
+.eventsol{
+    width: 500px;
+    height: 400px;
+}
+.eventsag{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+}
+.eventsag,h5, p{
+    text-align: center;
+    padding-top: 30px;
+}
+.eventsag span{
+    color: red;
+}
+.book{
+    width: 100%;
+    padding: 100px 0px;
+}
+.booka{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book1{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+.book1y{
+    width: 400px;
+    height: 150px;
+}
+
+.book2{
+    width: 400px;
+    height:500px;
+    position: relative;
+    background-color: yellow;
+    overflow: hidden;
+}
+.book2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 1s  ease;
+}
+.book2 img:hover{
+   
+    scale: 1.1;
+
+}
